@@ -3,22 +3,16 @@
     --green: #78b189;
     --navy: #08316f;
     --ivory: #fffef1;
-}
 
-.zen-old-mincho-regular {
-  font-family: "Zen Old Mincho", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.zen-old-mincho-semi-bold {
-    font-family: "Zen Old Mincho", serif;
-    font-weight: 600;
-    font-style: normal;
-}
-
-.zen-old-mincho-bold {
-    font-family: "Zen Old Mincho", serif;
-    font-weight: 700;
-    font-style: normal;
+    --bs-bold-font-family: "Zen Old Mincho", serif;
+    --bs-bold-font-weight: 700;
+    --bs-bold-font-style: normal;
+    
+    --bs-semibold-font-family: "Zen Old Mincho", serif;
+    --bs-semibold-font-weight: 600;
+    --bs-semibold-font-style: normal;
+    
+    --bs-normal-font-family: "Zen Old Mincho", serif;
+    --bs-normal-font-weight: 400;
+    --bs-normal-font-style: normal;
 }
