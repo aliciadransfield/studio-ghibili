@@ -1,3 +1,10 @@
+:root {
+    --pink: #fcb5aa;
+    --green: #78b189;
+    --navy: #08316f;
+    --ivory: #fffef1;
+}
+
 .zen-old-mincho-regular {
   font-family: "Zen Old Mincho", serif;
   font-weight: 400;
