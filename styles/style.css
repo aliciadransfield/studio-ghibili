@@ -158,3 +158,47 @@ footer .nav-bar {
     width: 20px;
     height: 20px;
 }
+
+/* contact us page */
+
+h1 {
+    font-family: var(--bs-bold-font-family);
+    color: var(--navy);
+    text-align: center;
+    font-size: 35px;
+}
+
+.contact p {
+    max-width: 500px;
+    justify-self: center;
+}
+
+.contact_form {
+    border-radius: 5px;
+    background-color: #d5d9df;
+    padding: 20px;
+    max-width: 500px;
+    justify-self: center;
+    margin: 15px;
+}
+
+.contact_form input[type=text], input[type=email], select, text area {
+    font-family: var(--bs-semibold-font-style);
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--navy);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical;
+}
+
+input[type=submitform] {
+    background-color: var(--green);
+    color: var(--ivory);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
