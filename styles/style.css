@@ -3,6 +3,7 @@
     --green: #78b189;
     --navy: #08316f;
     --ivory: #fffef1;
+    --body-text: #051c3f;
 
     --bs-bold-font-family: "Zen Old Mincho", serif;
     --bs-bold-font-weight: 700;
@@ -25,7 +26,30 @@
     font-family: var(--bs-normal-font-family);
 }
 
+h1 {
+    font-family: var(--bs-bold-font-family);
+    color: var(--navy);
+    text-align: center;
+    font-size: 35px;
+}
+
+h2 {
+    font-family: var(--bs-bold-font-family);
+    color: var(--navy);
+    text-align: center;
+    font-size: 25px; 
+}
+
+p {
+    font-family: var(--bs-normal-font-family);
+    color: var(--body-text);
+}
+
 /* header */
+
+header {
+    background-color: var(--pink);
+}
 
 .global-header {
     display: grid;
@@ -186,13 +210,6 @@ footer .nav-bar {
 
 /* contact us page */
 
-h1 {
-    font-family: var(--bs-bold-font-family);
-    color: var(--navy);
-    text-align: center;
-    font-size: 35px;
-}
-
 .contact p {
     max-width: 500px;
     justify-self: center;
@@ -244,3 +261,5 @@ h1 {
 .contact_form input[type="submit"]:hover {
     opacity: 0.85;
 }
+
+/* about studio ghibli */
