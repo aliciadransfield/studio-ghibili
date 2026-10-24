@@ -27,25 +27,27 @@
 
 /* header */
 
-header {
-    background-color: var(--pink);
-}
-
 .global-header {
     display: grid;
-    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    justify-self: center;
 }
 
 /* nav */
 
 .nav {
     grid-column: 1 / 2;
+    justify-self: start;
 }
 
 .nav ul {
     list-style-type: none;
     display: flex;
-    gap: 10px;
+    gap: 12px;
     padding: 10px;
     font-family: var(--bs-bold-font-family);
     font-size: 18px;
@@ -61,24 +63,26 @@ a {
     text-decoration: none;
 }
 
-.logo {
+.global-header > .logo {
     grid-column: 2/3;
+    justify-self: center;
     padding: 20px;
     align-items: center;
 }
 
 .logo img {
-    max-width: 80px;
+    width: 80px;
+    max-width: 100%;
     height: auto;
 }
 
 /* search bar */
 .rightnav {
     display: flex;
-    grid-template-columns: 2fr, 1fr;
+    grid-template-columns: 2fr 1fr;
     grid-column: 3/4;
     padding: 20px;
-    justify-content: right;
+    justify-content: flex-end;
 }
 
 .search {
@@ -86,27 +90,36 @@ a {
 }
 
 .magnifine {
-    width: 30px;
+    display: block;
+    width: 26px;
+    height: 20px;
+    object-fit: contain;
 }
 .searchbar {
-  float: right;
+    display: flex;
+    align-items: stretch;
+    height: 36px;
+    padding-right: 10px;
 }
 
 .searchbar input[type=text] {
-  padding: 6px;
-  margin-top: 8px;
-  font-size: 17px;
-  border: none;
+    font-family: var(--bs-normal-font-family);
+    padding: 6px;
+    font-size: 17px;
+    border: none;
 }
 
 .searchbar button {
-  float: right;
-  margin-top: 8px;
-  margin-right: 16px;
-  background: #ddd;
-  font-size: 17px;
-  border: none;
-  cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 38px;
+    padding: 4px;
+    margin: 0;
+    border: 1px solid #ddd;
+    background-color: white;
+    cursor: pointer;
+    height: 36px;
 }
 
 .searchbar button:hover {
