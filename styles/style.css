@@ -29,7 +29,7 @@ header {
 
 .global-header {
     display: grid;
-    grid-template-columns: 2fr, 1fr, 2fr;
+    grid-template-columns: 1fr, 1fr, 1fr;
 }
 
 .nav {
@@ -39,14 +39,15 @@ header {
 .nav ul {
     list-style-type: none;
     display: flex;
-    gap: 15px;
+    gap: 10px;
     padding: 10px;
     font-family: var(--bs-bold-font-family);
+    font-size: 18px;
 }
 
 .nav a:hover {
     background-color: var(--green);
-    padding: 10px;
+    margin: auto;
 }
 
 a {
@@ -57,12 +58,20 @@ a {
 .logo {
     grid-column: 2/3;
     padding: 20px;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 80px;
+    height: auto;
 }
 
 .rightnav {
+    display: flex;
     grid-template-columns: 2fr, 1fr;
     grid-column: 3/4;
     padding: 20px;
+    justify-content: right;
 }
 
 .search {
