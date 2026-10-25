@@ -465,6 +465,11 @@ footer .nav-bar {
     height: 30px;
     }
 
+    .profile {
+        padding: 0 15px;
+    }
+
+
     /* footer */
 
     .footer {
@@ -490,5 +495,112 @@ footer .nav-bar {
         grid-column: 3/4;
         width: 30px;
         height: 30px;
+    }    /* Contact us page */
+
+    .contact p {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .contact_form {
+        width: 90%;
+    }
+
+    .contact_form label {
+        display: block;
+    }
+
+    /* about studio ghibli */
+
+    .history {
+        width: 95%;
+        padding-bottom: 30px;
+    }
+
+    /* about Miyazaki */
+
+    .miyazaki {
+        grid-template-columns: 1fr;
+    }
+
+    .miyazaki img {
+        grid-column: 1/4;
+        grid-row: 3/4;
+        width: 100%;
+        padding-top: 25px;
+        justify-self: center;
+    }
+
+    .miyazaki h2 {
+        grid-column: 1/4;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .miyazaki p {
+        grid-column: 1/4;
+        margin-left: 0px;
+    }
+
+    /* about Takahata */
+
+    .takahata {
+        grid-template-columns: 1fr;
+    }
+
+    .takahata img {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        width: 100%;
+        padding-top: 20px;
+        justify-self: center;
+    }
+    .takahata p {
+        margin-right: 0px;
+    }
+
+    /* Important Films */
+
+    .brief-film-history {
+        grid-template-columns: 1fr;
+    }
+
+    .brief-film-history img {
+        grid-column: 1/4;
+        grid-row: 3/4;
+        padding-top: 0px;
+    }
+
+    .brief-film-history h2 {
+        grid-column: 1/4;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .brief-film-history p {
+        grid-column: 1/4;
+        margin-left: 0px;
+    }
+
+    /* Translations*/
+
+    .translation {
+        grid-template-columns: 1fr;
+        display: grid;
+    }
+
+    .translation img {
+        grid-column: 1/4;
+        grid-row: 3/4;
+        padding-top: 15px;
+        margin: auto;
+    }
+
+    .translation h2 {
+        grid-column: 1/4;
+        text-align: center;
+        margin-right: 0px;
+    }
+    .translation p {
+        grid-column: 1/4;
+        margin-right: 0px;
     }
 }
