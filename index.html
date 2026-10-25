@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Great Ghibli</title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap" rel="stylesheet">
@@ -13,6 +14,9 @@
         <section class="global-header">
             <div class="nav">
                 <nav>
+                    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                        <img src="images/menu.png" class="hamberger-menu">
+                    </button>
                     <ul>
                         <li>
                             <a href="watchLater.html" >
@@ -44,12 +48,12 @@
                         <input type="text" placeholder="Search" aria-label="Search">
                         <button type="submit" aria-label="Submit search">
                             <!-- I need to make the icon current placeholder -->
-                            <img src="images/search.avif" class="magnifine" alt="magnifine glass">
+                            <img src="images/search.png" class="magnifine" alt="magnifine glass">
                         </button>
                     </form>
                 </div>
                 <div class="profile">
-                    <span>Profile</span>
+                    <img src="images/profile.png"> 
                 </div>
             </div>
         </section>
@@ -80,6 +84,9 @@
                             <span>Contact Us</span>
                         </a>
                     </li>
+                    <li>
+                        <a href="attributes.html" title="attributes">Attributes</a>
+                    </li>
                 </ul>
             </div>
             <div class="socials">
@@ -88,6 +95,6 @@
                 </a>
             </div>
         </section>
-    </footer> 
+    </footer>  
 </body>
 </html>
