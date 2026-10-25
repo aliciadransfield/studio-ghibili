@@ -384,7 +384,6 @@ footer .nav-bar {
     margin-right: 40px;
 }
 
-
 /* Media Queries */
 
 @media screen and (max-width: 600px) {
@@ -466,4 +465,30 @@ footer .nav-bar {
     height: 30px;
     }
 
+    /* footer */
+
+    .footer {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    footer .logo {
+    grid-row: 2/3;
+    width: 100px;
+    }
+
+    footer .nav-bar {
+        grid-column: 1/3;
+        padding: 20px;
+    }
+
+    .socials {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    .socials img {
+        grid-column: 3/4;
+        width: 30px;
+        height: 30px;
+    }
 }
