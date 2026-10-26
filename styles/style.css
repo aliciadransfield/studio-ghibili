@@ -178,21 +178,25 @@ a {
 }
 
 /*main hero*/
-#hero img {
-    height: 400px;
-    width: 100%;
-    object-fit: cover;
+#hero {
+    position: relative;
 }
 
 #hero-content {
-    text-align: center;
-    max-width: 150ch;
-    margin: -300px auto 100px auto;
-    background-color: rgba(120, 177, 137, 1);
+    position: absolute;
+    top: 50px;
+    bottom: 60px;
+    left: 6%;
+    width: 80%;
+    background-color: rgba(120, 177, 137, 0.4);
+    border-radius: 15px;
+    padding: 2rem;
 }
 
-#hero-content h2, #hero-content h3 {
-    color: black;
+
+#hero-content {
+    text-align: center;
+    max-width: 100ch;
 }
 
 #hero-content button {
