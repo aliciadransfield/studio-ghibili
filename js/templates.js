@@ -1,4 +1,4 @@
-export function mediaCardTemplate(data) {
+export function movieCardTemplate(data) {
     let card = createElement("article");
     card.classList.Add("movie-card");
     let html = `<img src="${data.image}" alt="a picture of ${data.title}'s movie poster">

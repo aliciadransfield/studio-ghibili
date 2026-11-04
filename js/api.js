@@ -21,7 +21,7 @@ const endpoints = [
     // "vehicles"
 ];
 
-async function getAllGhibliData() {
+export async function getAllGhibliData() {
     try {
         const allData = {};
         for (const endpoint of endpoints) {
@@ -39,7 +39,7 @@ async function getAllGhibliData() {
 getAllGhibliData();
 
 // gets just the movies
-async function getMovies() {
+export async function getMovies() {
     try {
         const movies = await getJson(movieUrl);
         console.log("All Ghibli Movies:", movies);
