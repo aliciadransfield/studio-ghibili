@@ -1,9 +1,9 @@
 import { getMovies } from "./api.js";
-import { movieCardTemplate } from "./templates";
+import { movieCardTemplate } from "./templates.js";
 const movieBox = document.querySelector("movie-gallery");
 
 async function getMovieCard() {
-    movieData = await getMovies();
+    const movieData = await getMovies();
     console.log(movieData);
 }
 
